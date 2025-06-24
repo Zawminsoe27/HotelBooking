@@ -15,7 +15,7 @@ const Hero = () => {
 				hotels and resorts. Start your journey today.
 			</p>
 
-			<form className='bg-white text-gray-500 rounded-lg px-6 py-4  flex flex-col md:flex-row max-md:items-start gap-4 max-md:mx-auto mt-10'>
+			<form className='bg-transparent backdrop-blur-sm text-white shadow-md rounded-lg px-6 py-4  flex flex-col md:flex-row max-md:items-start gap-4 max-md:mx-auto mt-10'>
 
 				<div>
 					<div className='flex items-center gap-2'>
