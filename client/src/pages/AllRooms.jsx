@@ -30,6 +30,7 @@ const RadioButton = ({ label, selected = false, onChange = () => {} }) => {
 };
 
 const AllRooms = () => {
+
   const navigate = useNavigate();
   const [openFilters, setOpenFilters] = useState(false);
   const roomTypes = ["Single Bed", "Double Bed", "Luxury Room", "Family Suite"];
@@ -50,9 +51,10 @@ const AllRooms = () => {
         <div className="flex flex-col items-start text-left">
           <h1 className="font-playfair text-4xl md:text-[35px] ">
             Hotel Rooms
+             
           </h1>
           <p className="text-sm md:text-base text-gray-500 mt-6">
-            Take advantage of our limited-time offer and special packages to
+            Take advantage of our 9limited-time offer and special packages to
             enchance you stay and create unforgettable momories with us.
           </p>
         </div>
